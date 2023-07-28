@@ -4,6 +4,9 @@ import string
 from nltk.corpus import stopwords
 import nltk
 from nltk.stem.porter import PorterStemmer
+import nltk
+nltk.download('punkt')
+
 # from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 # cv = CountVectorizer()
 # tfidf = TfidfVectorizer(max_features=3000)
